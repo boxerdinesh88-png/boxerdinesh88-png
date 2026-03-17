@@ -17,7 +17,7 @@
 
 ## 👨‍💻 ABOUT ME
 <p align="center">
-🚀 Frontend Web Developer passionate about clean UI & UX <br/>
+🚀 Frontend and Fullstack Web Developer passionate about clean UI & UX <br/>
 ⚛️ React.js | JavaScript | Bootstrap <br/>
 🌱 Learning Advanced React & MySQL <br/>
 ⚡ Turning ideas into animated web experiences
