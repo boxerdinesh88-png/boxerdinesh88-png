@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=58A6FF&background=0D111700&center=true&vCenter=true&width=600&lines=Frontend+%26+Fullstack+Developer;React.js+%7C+JavaScript+%7C+Bootstrap;Building+Clean+%26+Animated+Web+Apps;Turning+Ideas+into+Experiences;Always+Learning+%2C+Always+Growing+%F0%9F%9A%80" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=58A6FF&background=0D111700&center=true&vCenter=true&width=600&lines=Frontend+%26+Fullstack+Developer;React.js+%7C+JavaScript+%7C+HTML+%7C+Bootstrap;Building+Clean+%26+Animated+Web+Apps;Turning+Ideas+into+Experiences;Always+Learning+%2C+Always+Growing+%F0%9F%9A%80" />
 </p>
 
 <p align="center">
@@ -20,8 +20,8 @@
 const dinesh = {
   role:       "Frontend & Fullstack Developer",
   location:   "India 🇮🇳",
-  stack:      ["React.js", "JavaScript", "Bootstrap", "MySQL"],
-  learning:   ["Advanced React Patterns", "MySQL Optimization"],
+  stack:      ["React.js", "JavaScript", "Bootstrap", "MySQL","Python","Django","HTML","CSS"],
+  learning:   ["Advanced React and django Patterns", "MySQL Optimization"],
   passion:    "Turning ideas into clean, animated web experiences ✨",
   email:      "boxerdinesh88@gmail.com",
   openTo:     ["Freelance", "Collaborations", "Full-time roles"],
