@@ -5,7 +5,7 @@
 
 <!-- ⌨️ TYPING ANIMATION -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=3000&color=36BCF7&center=true&vCenter=true&width=600&lines=Frontend+Web+Developer;React.js+Developer;JavaScript+Enthusiast;Building+Modern+Web+Apps;Always+Learning+New+Things" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=3000&color=36BCF7&center=true&vCenter=true&width=600&lines=Frontend+Web+Developer;Fullstact+Web+Developer;React.js+Developer;JavaScript+Enthusiast;Building+Modern+Web+Apps;Always+Learning+New+Things" />
 </p>
 
 <!-- 👀 PROFILE VIEWS -->
@@ -61,7 +61,7 @@
   <a href="mailto:boxerdinesh88@gmail.com">
     <img src="https://img.icons8.com/color/48/gmail-new.png"/>
   </a>
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN">
+  <a href="https://www.linkedin.com/in/dinesh-kumar-6a6b9530b?utm_source=share_via&utm_content=profile&utm_medium=member_android">
     <img src="https://img.icons8.com/color/48/linkedin.png"/>
   </a>
   <a href="https://YOUR_PORTFOLIO_LINK">
