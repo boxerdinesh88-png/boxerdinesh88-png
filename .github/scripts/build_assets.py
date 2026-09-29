@@ -22,15 +22,15 @@ ROLES = [
 
 
 def header() -> str:
-    step = 3  # seconds each role stays on screen
+    step = 1.8  # seconds each role stays on screen
     total = step * len(ROLES)
     roles = []
     for i, text in enumerate(ROLES):
         a, b = i / len(ROLES), (i + 1) / len(ROLES)
-        e = 0.35 / total  # fade duration as a fraction of the loop
+        e = 0.2 / total  # fade duration as a fraction of the loop
         key_times = f"0;{max(a,0):.4f};{a+e:.4f};{b-e:.4f};{b:.4f};1"
         roles.append(f"""
-    <text x="80" y="232" class="role" opacity="0">&gt; {escape(text)}<tspan fill="#a5b4fc">▍<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan>
+    <text x="80" y="232" class="role" opacity="0">&gt; {escape(text)}<tspan fill="#a5b4fc">▍<animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/></tspan>
       <animate attributeName="opacity" dur="{total}s" repeatCount="indefinite"
                keyTimes="{key_times}" values="0;0;1;1;0;0"/>
     </text>""")
@@ -43,9 +43,11 @@ def header() -> str:
       <stop offset="0" stop-color="#ffffff"/>
       <stop offset="0.5" stop-color="#a5b4fc"/>
       <stop offset="1" stop-color="#67e8f9"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-0.3 0;0.3 0;-0.3 0" dur="8s" repeatCount="indefinite"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.3 0;0.3 0;-0.3 0" dur="3s" repeatCount="indefinite"/>
     </linearGradient>
-    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+    <radialGradient id="g1"><stop offset="0" stop-color="#4f46e5" stop-opacity="0.85"/><stop offset="1" stop-color="#4f46e5" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2"><stop offset="0" stop-color="#0891b2" stop-opacity="0.8"/><stop offset="1" stop-color="#0891b2" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g3"><stop offset="0" stop-color="#9333ea" stop-opacity="0.6"/><stop offset="1" stop-color="#9333ea" stop-opacity="0"/></radialGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
     </pattern>
@@ -65,23 +67,23 @@ def header() -> str:
 
   <g clip-path="url(#card)">
     <rect width="1200" height="320" fill="url(#bg)"/>
-    <g filter="url(#blur)" opacity="0.75">
-      <circle cx="950" cy="80" r="150" fill="#4f46e5">
-        <animate attributeName="cx" values="950;1030;900;950" dur="14s" repeatCount="indefinite"/>
-        <animate attributeName="cy" values="80;150;60;80" dur="14s" repeatCount="indefinite"/>
+    <g opacity="0.8">
+      <circle cx="950" cy="80" r="260" fill="url(#g1)">
+        <animate attributeName="cx" values="950;1030;900;950" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="80;150;60;80" dur="6s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="1080" cy="260" r="120" fill="#0891b2">
-        <animate attributeName="cx" values="1080;980;1100;1080" dur="11s" repeatCount="indefinite"/>
+      <circle cx="1080" cy="260" r="220" fill="url(#g2)">
+        <animate attributeName="cx" values="1080;980;1100;1080" dur="5s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="760" cy="300" r="90" fill="#9333ea" opacity="0.7">
-        <animate attributeName="cy" values="300;240;300" dur="9s" repeatCount="indefinite"/>
+      <circle cx="760" cy="300" r="170" fill="url(#g3)">
+        <animate attributeName="cy" values="300;240;300" dur="4s" repeatCount="indefinite"/>
       </circle>
     </g>
     <rect width="1200" height="320" fill="url(#grid)" mask="url(#gridmask)"/>
 
     <!-- floating code snippet -->
     <g opacity="0.9">
-      <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="6s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="3s" repeatCount="indefinite"/>
       <rect x="830" y="92" width="290" height="136" rx="14" fill="#0b1020" fill-opacity="0.72" stroke="#ffffff" stroke-opacity="0.08"/>
       <circle cx="852" cy="112" r="5" fill="#f87171"/><circle cx="870" cy="112" r="5" fill="#fbbf24"/><circle cx="888" cy="112" r="5" fill="#34d399"/>
       <text x="852" y="146" class="code"><tspan fill="#c084fc">const</tspan> <tspan fill="#e2e8f0">dev</tspan> = {{</text>
@@ -98,8 +100,8 @@ def header() -> str:
     <rect x="80" y="258" width="196" height="32" rx="16" fill="#052e1a" stroke="#22c55e" stroke-opacity="0.45"/>
     <circle cx="100" cy="274" r="5" fill="#22c55e"/>
     <circle cx="100" cy="274" r="5" fill="none" stroke="#22c55e" stroke-width="2">
-      <animate attributeName="r" values="5;12" dur="1.8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.9;0" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="5;12" dur="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0" dur="1.2s" repeatCount="indefinite"/>
     </circle>
     <text x="114" y="279" class="pill">Available for work</text>
   </g>
@@ -156,7 +158,7 @@ def card(p: dict) -> str:
   <defs>
     <linearGradient id="border" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="260">
       <stop offset="0" stop-color="{a1}"/><stop offset="0.5" stop-color="{a2}" stop-opacity="0.15"/><stop offset="1" stop-color="{a2}"/>
-      <animateTransform attributeName="gradientTransform" type="rotate" values="0 300 130;360 300 130" dur="10s" repeatCount="indefinite"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 300 130;360 300 130" dur="3.5s" repeatCount="indefinite"/>
     </linearGradient>
     <radialGradient id="glow" cx="1" cy="0" r="0.9">
       <stop offset="0" stop-color="{a2}" stop-opacity="0.28"/><stop offset="1" stop-color="{a2}" stop-opacity="0"/>
@@ -179,18 +181,18 @@ def card(p: dict) -> str:
   <g clip-path="url(#c)">
     <rect width="600" height="260" fill="url(#glow)"/>
     <rect x="-300" y="0" width="240" height="260" fill="url(#shine)" transform="skewX(-20)">
-      <animate attributeName="x" values="-300;900" dur="5s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="-300;900" dur="2.2s" begin="0s" repeatCount="indefinite"/>
     </rect>
   </g>
   <circle cx="{x+4}" cy="47" r="4" fill="{a2}">
-    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
   </circle>
   <text x="{x+16}" y="52" class="kick">{escape(p['kicker'])}</text>
   <text x="{x}" y="94" class="title" fill="url(#title)">{escape(p['title'])}</text>
   {desc}
   {''.join(pills)}
   <text x="564" y="56" text-anchor="end" font-size="22" fill="#64748b" font-family="{SANS}">↗
-    <animateTransform attributeName="transform" type="translate" values="0 0;3 -3;0 0" dur="2s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;3 -3;0 0" dur="1.2s" repeatCount="indefinite"/>
   </text>
 </svg>
 """

@@ -2,7 +2,7 @@
   <defs>
     <linearGradient id="border" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="260">
       <stop offset="0" stop-color="#ec4899"/><stop offset="0.5" stop-color="#8b5cf6" stop-opacity="0.15"/><stop offset="1" stop-color="#8b5cf6"/>
-      <animateTransform attributeName="gradientTransform" type="rotate" values="0 300 130;360 300 130" dur="10s" repeatCount="indefinite"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 300 130;360 300 130" dur="3.5s" repeatCount="indefinite"/>
     </linearGradient>
     <radialGradient id="glow" cx="1" cy="0" r="0.9">
       <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.28"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
@@ -25,17 +25,17 @@
   <g clip-path="url(#c)">
     <rect width="600" height="260" fill="url(#glow)"/>
     <rect x="-300" y="0" width="240" height="260" fill="url(#shine)" transform="skewX(-20)">
-      <animate attributeName="x" values="-300;900" dur="5s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="-300;900" dur="2.2s" begin="0s" repeatCount="indefinite"/>
     </rect>
   </g>
   <circle cx="40" cy="47" r="4" fill="#8b5cf6">
-    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
   </circle>
   <text x="52" y="52" class="kick">BACKEND · PLATFORM</text>
   <text x="36" y="94" class="title" fill="url(#title)">Event Directory</text>
   <text x="36" y="130" class="desc">Event management &amp; social posting platform</text><text x="36" y="156" class="desc">with auth, email/SMS blasts and admin dashboard.</text>
   <rect x="36" y="196" width="67" height="28" rx="14" fill="#ec4899" fill-opacity="0.12" stroke="#ec4899" stroke-opacity="0.35"/><text x="70" y="215" class="tag" text-anchor="middle">Django</text><rect x="111.19999999999999" y="196" width="67" height="28" rx="14" fill="#ec4899" fill-opacity="0.12" stroke="#ec4899" stroke-opacity="0.35"/><text x="145" y="215" class="tag" text-anchor="middle">Python</text><rect x="186.39999999999998" y="196" width="51" height="28" rx="14" fill="#ec4899" fill-opacity="0.12" stroke="#ec4899" stroke-opacity="0.35"/><text x="212" y="215" class="tag" text-anchor="middle">HTML</text><rect x="245.2" y="196" width="43" height="28" rx="14" fill="#ec4899" fill-opacity="0.12" stroke="#ec4899" stroke-opacity="0.35"/><text x="266" y="215" class="tag" text-anchor="middle">CSS</text>
   <text x="564" y="56" text-anchor="end" font-size="22" fill="#64748b" font-family="'Segoe UI', Inter, -apple-system, Helvetica, Arial, sans-serif">↗
-    <animateTransform attributeName="transform" type="translate" values="0 0;3 -3;0 0" dur="2s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;3 -3;0 0" dur="1.2s" repeatCount="indefinite"/>
   </text>
 </svg>
