@@ -1,108 +1,90 @@
-<!-- ============================== HEADER ============================== -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=140&color=0:0b0f19,100:111827&text=Dinesh%20Kumar&fontColor=e6edf3&fontSize=44&fontAlign=50&fontAlignY=45&desc=Full-Stack%20Developer%20%C2%B7%20React%20%C2%B7%20TypeScript%20%C2%B7%20Django&descSize=16&descAlign=50&descAlignY=75" alt="Dinesh Kumar — Full-Stack Developer" />
-</p>
+<!-- Header & project cards are animated SVGs in /assets — regenerate with: python .github/scripts/build_assets.py -->
+
+<a href="https://dinesh-kumar-mu.vercel.app">
+  <img src="./assets/header.svg" width="100%" alt="Dinesh Kumar — Full-Stack Developer" />
+</a>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=1000&color=7C9CFF&center=true&vCenter=true&width=520&lines=I+build+fast%2C+clean+web+products.;React+%2B+TypeScript+on+the+front.;Python+%2B+Django+on+the+back.;Open+to+freelance+%26+full-time+roles." alt="Typing intro" />
-</p>
-
-<p align="center">
-  <a href="https://dinesh-kumar-mu.vercel.app"><img src="https://img.shields.io/badge/Portfolio-dinesh--kumar-111827?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/dinesh-kumar-6a6b9530b"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:boxerdinesh88@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hi-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Status-Available%20for%20work-22c55e?style=flat-square" alt="Available for work" />
+  <a href="https://dinesh-kumar-mu.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0b0f19?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/dinesh-kumar-6a6b9530b"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:boxerdinesh88@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/boxerdinesh88-png?tab=repositories"><img src="https://img.shields.io/badge/Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
 </p>
 
 <br/>
 
-### 👋 Hi, I'm Dinesh
+## About
 
-Full-stack developer from **India 🇮🇳**. I design and ship responsive, performance-minded web apps — from pixel-level UI in **React & TypeScript** to APIs and data in **Python, Django & MySQL**.
-
-- 🔭 &nbsp;Currently building — production apps with **React + TypeScript**, deployed on **Vercel**
-- 🌱 &nbsp;Learning — advanced React & Django patterns, MySQL query optimization
-- 🤝 &nbsp;Open to — freelance projects, collaborations and full-time roles
-- ⚡ &nbsp;Focus — clean code, smooth UX, accessible and responsive design
-
-<br/>
-
-### 🧰 Tech Stack
+I'm a **full-stack developer from India 🇮🇳** who builds fast, polished web products end-to-end — interfaces in **React, Next.js & TypeScript**, and APIs, auth and data in **Python, Django & MySQL**.
 
 <table>
   <tr>
-    <td width="120"><b>Frontend</b></td>
-    <td><img src="https://skillicons.dev/icons?i=react,ts,js,html,css,bootstrap&theme=dark" alt="Frontend stack" /></td>
-  </tr>
-  <tr>
-    <td><b>Backend</b></td>
-    <td><img src="https://skillicons.dev/icons?i=python,django,mysql&theme=dark" alt="Backend stack" /></td>
-  </tr>
-  <tr>
-    <td><b>Tools</b></td>
-    <td><img src="https://skillicons.dev/icons?i=git,github,vscode,figma,vercel&theme=dark" alt="Tools" /></td>
+    <td width="33%" valign="top">
+      <b>🎨 Frontend</b><br/>
+      <sub>Responsive, animated UIs with React, Next.js, Tailwind & Framer Motion.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <b>⚙️ Backend</b><br/>
+      <sub>REST APIs, auth, memberships & admin panels with Django and MySQL.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <b>🚀 Shipping</b><br/>
+      <sub>Production deploys on Vercel & VPS, performance and SEO tuning.</sub>
+    </td>
   </tr>
 </table>
+
+- 🔭 &nbsp;**Now:** building SaaS-style booking platforms with Next.js + Django REST
+- 🌱 &nbsp;**Learning:** advanced React & Django patterns, MySQL query optimization
+- 🤝 &nbsp;**Open to:** freelance projects, collaborations and full-time roles
 
 <br/>
 
-### 🚀 Featured Work
+## Tech Stack
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🌐 Personal Portfolio</h4>
-      <p>My latest portfolio — modern, animated and fully responsive.</p>
-      <p><code>TypeScript</code> <code>React</code> <code>Vercel</code></p>
-      <a href="https://dinesh-kumar-mu.vercel.app"><b>Live ↗</b></a> ·
-      <a href="https://github.com/boxerdinesh88-png/latest">Code</a>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🏢 Shi-ning Services</h4>
-      <p>Dynamic business website with a Django backend, responsive UI and integrated contact forms.</p>
-      <p><code>Django</code> <code>HTML</code> <code>CSS</code></p>
-      <a href="https://boxerdinesh88-png.github.io/Shi-ning-services/"><b>Live ↗</b></a> ·
-      <a href="https://github.com/boxerdinesh88-png/Shi-ning-services">Code</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🅿️ Parking Web App</h4>
-      <p>Parking management web app with a clean, responsive interface.</p>
-      <p><code>JavaScript</code> <code>HTML</code> <code>CSS</code></p>
-      <a href="https://boxerdinesh88-png.github.io/parking-web/"><b>Live ↗</b></a> ·
-      <a href="https://github.com/boxerdinesh88-png/parking-web">Code</a>
-    </td>
-    <td width="50%" valign="top">
-      <h4>♟️ Chess Game</h4>
-      <p>Playable browser chess game built with vanilla web technologies.</p>
-      <p><code>JavaScript</code> <code>HTML</code> <code>CSS</code></p>
-      <a href="https://boxerdinesh88-png.github.io/chessgame/"><b>Live ↗</b></a> ·
-      <a href="https://github.com/boxerdinesh88-png/chessgame">Code</a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,vite,html,css,bootstrap&theme=dark" alt="Frontend stack" /><br/>
+  <img src="https://skillicons.dev/icons?i=python,django,mysql,git,github,vscode,figma,vercel&theme=dark" alt="Backend & tools" />
+</p>
+
+<br/>
+
+## Featured Projects
+
+<p align="center">
+  <a href="https://dinesh-kumar-mu.vercel.app"><img src="./assets/card-portfolio.svg" width="49%" alt="Developer Portfolio" /></a>
+  <a href="https://github.com/boxerdinesh88-png/lib"><img src="./assets/card-library.svg" width="49%" alt="Library Seat Booking" /></a>
+  <a href="https://github.com/boxerdinesh88-png/room-scholars"><img src="./assets/card-roomscholars.svg" width="49%" alt="Room Scholars" /></a>
+  <a href="https://github.com/boxerdinesh88-png/event-directory"><img src="./assets/card-events.svg" width="49%" alt="Event Directory" /></a>
+  <a href="https://boxerdinesh88-png.github.io/Shi-ning-services/"><img src="./assets/card-shining.svg" width="49%" alt="Shi-ning Services" /></a>
+  <a href="https://boxerdinesh88-png.github.io/chessgame/"><img src="./assets/card-chess.svg" width="49%" alt="Chess Game" /></a>
+</p>
+
+<p align="center"><sub>Click any card to open the live site or source code.</sub></p>
 
 <details>
-  <summary><b>More client & practice builds</b></summary>
+  <summary><b>More projects & client websites</b></summary>
   <br/>
 
-| Project | Type | Live |
-|---|---|---|
-| 🏋️ Gym Website | Landing page | [Visit ↗](https://boxerdinesh88-png.github.io/gym/) |
-| 🚗 Car Website | Showcase site | [Visit ↗](https://boxerdinesh88-png.github.io/car-website/) |
-| 🍽️ Mexent Food | Restaurant site | [Visit ↗](https://boxerdinesh88-png.github.io/mexentfood/) |
-| 💄 Makeup Forever | Brand site | [Visit ↗](https://boxerdinesh88-png.github.io/makeupforever/) |
-| 🌱 Fungro | Business site | [Visit ↗](https://boxerdinesh88-png.github.io/Fungro-/) |
+| Project | What it is | Stack | Links |
+|---|---|---|---|
+| 🧩 **Library API** | Standalone Django REST backend (accounts, seats, memberships, complaints) | `Django` `Python` | [Code](https://github.com/boxerdinesh88-png/backend) |
+| 🅿️ **Parking Web** | Parking management website | `HTML` `CSS` `JS` | [Live ↗](https://boxerdinesh88-png.github.io/parking-web/) · [Code](https://github.com/boxerdinesh88-png/parking-web) |
+| 🏋️ **Gym** | Fitness studio landing page | `HTML` `CSS` `JS` | [Live ↗](https://boxerdinesh88-png.github.io/gym/) · [Code](https://github.com/boxerdinesh88-png/gym) |
+| 🚗 **Car Website** | Automotive showcase site | `HTML` `CSS` `JS` | [Live ↗](https://boxerdinesh88-png.github.io/car-website/) · [Code](https://github.com/boxerdinesh88-png/car-website) |
+| 🍽️ **Mexent Food** | Hotel & restaurant menu site | `HTML` `CSS` `JS` | [Live ↗](https://boxerdinesh88-png.github.io/mexentfood/) · [Code](https://github.com/boxerdinesh88-png/mexentfood) |
+| 💄 **Makeup Forever** | Beauty brand website | `HTML` `CSS` `JS` | [Live ↗](https://boxerdinesh88-png.github.io/makeupforever/) · [Code](https://github.com/boxerdinesh88-png/makeupforever) |
+| 🌱 **Fungro** | Business website | `HTML` `CSS` `JS` | [Live ↗](https://boxerdinesh88-png.github.io/Fungro-/) · [Code](https://github.com/boxerdinesh88-png/Fungro-) |
+| 🗂️ **Portfolio v1** | My first portfolio | `HTML` `CSS` `JS` | [Live ↗](https://boxerdinesh88-png.github.io/portfolio-/) · [Code](https://github.com/boxerdinesh88-png/portfolio-) |
 
 </details>
 
 <br/>
 
-### 📈 GitHub Activity
+## GitHub Activity
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=boxerdinesh88-png&theme=transparent&hide_border=true&background=00000000&ring=7C9CFF&fire=7C9CFF&currStreakLabel=7C9CFF&sideLabels=8b949e&dates=8b949e&currStreakNum=e6edf3&sideNums=e6edf3&stroke=30363d" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=boxerdinesh88-png&theme=transparent&hide_border=true&background=00000000&ring=818CF8&fire=22D3EE&currStreakLabel=A5B4FC&sideLabels=8b949e&dates=8b949e&currStreakNum=e6edf3&sideNums=e6edf3&stroke=30363d" alt="GitHub streak" />
 </p>
 
 <p align="center">
@@ -115,16 +97,16 @@ Full-stack developer from **India 🇮🇳**. I design and ship responsive, perf
 
 <br/>
 
-### 📫 Let's work together
+## Let's Build Something
 
 Have a project in mind or a role that fits? I usually reply within a day.
 
 <p>
-  <a href="mailto:boxerdinesh88@gmail.com"><img src="https://img.shields.io/badge/boxerdinesh88@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email me" /></a>
-  <a href="https://www.linkedin.com/in/dinesh-kumar-6a6b9530b"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://dinesh-kumar-mu.vercel.app"><img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:boxerdinesh88@gmail.com"><img src="https://img.shields.io/badge/boxerdinesh88@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email me" /></a>
+  <a href="https://www.linkedin.com/in/dinesh-kumar-6a6b9530b"><img src="https://img.shields.io/badge/LinkedIn-Dinesh%20Kumar-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://dinesh-kumar-mu.vercel.app"><img src="https://img.shields.io/badge/Portfolio-dinesh--kumar-0b0f19?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=boxerdinesh88-png&label=profile%20views&color=7C9CFF&style=flat-square" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=boxerdinesh88-png&label=profile%20views&color=818CF8&style=flat-square" alt="Profile views" />
 </p>

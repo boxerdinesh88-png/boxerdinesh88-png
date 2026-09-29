@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" role="img" aria-label="Library Seat Booking">
+  <defs>
+    <linearGradient id="border" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="260">
+      <stop offset="0" stop-color="#f59e0b"/><stop offset="0.5" stop-color="#ef4444" stop-opacity="0.15"/><stop offset="1" stop-color="#ef4444"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 300 130;360 300 130" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="1" cy="0" r="0.9">
+      <stop offset="0" stop-color="#ef4444" stop-opacity="0.28"/><stop offset="1" stop-color="#ef4444" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="c"><rect x="2" y="2" width="596" height="256" rx="18"/></clipPath>
+    <style>
+      .kick { font: 700 12px 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; letter-spacing: 1.5px; fill: #ef4444; }
+      .title { font: 700 30px 'Segoe UI', Inter, -apple-system, Helvetica, Arial, sans-serif; letter-spacing: -0.5px; }
+      .desc { font: 400 16px 'Segoe UI', Inter, -apple-system, Helvetica, Arial, sans-serif; fill: #9aa4b2; }
+      .tag { font: 600 12.5px 'Segoe UI', Inter, -apple-system, Helvetica, Arial, sans-serif; fill: #e2e8f0; }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="598" height="258" rx="19" fill="#0b0f19" stroke="url(#border)" stroke-width="2"/>
+  <g clip-path="url(#c)">
+    <rect width="600" height="260" fill="url(#glow)"/>
+    <rect x="-300" y="0" width="240" height="260" fill="url(#shine)" transform="skewX(-20)">
+      <animate attributeName="x" values="-300;900" dur="5s" begin="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <circle cx="40" cy="47" r="4" fill="#ef4444">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="52" y="52" class="kick">FULL-STACK · SAAS</text>
+  <text x="36" y="94" class="title" fill="url(#title)">Library Seat Booking</text>
+  <text x="36" y="130" class="desc">Hourly study-seat booking with memberships,</text><text x="36" y="156" class="desc">reviews, notifications and an analytics panel.</text>
+  <rect x="36" y="196" width="75" height="28" rx="14" fill="#f59e0b" fill-opacity="0.12" stroke="#f59e0b" stroke-opacity="0.35"/><text x="74" y="215" class="tag" text-anchor="middle">Next.js</text><rect x="119.39999999999999" y="196" width="108" height="28" rx="14" fill="#f59e0b" fill-opacity="0.12" stroke="#f59e0b" stroke-opacity="0.35"/><text x="174" y="215" class="tag" text-anchor="middle">Django REST</text><rect x="235.59999999999997" y="196" width="75" height="28" rx="14" fill="#f59e0b" fill-opacity="0.12" stroke="#f59e0b" stroke-opacity="0.35"/><text x="273" y="215" class="tag" text-anchor="middle">Zustand</text><rect x="318.99999999999994" y="196" width="67" height="28" rx="14" fill="#f59e0b" fill-opacity="0.12" stroke="#f59e0b" stroke-opacity="0.35"/><text x="353" y="215" class="tag" text-anchor="middle">Framer</text>
+  <text x="564" y="56" text-anchor="end" font-size="22" fill="#64748b" font-family="'Segoe UI', Inter, -apple-system, Helvetica, Arial, sans-serif">↗
+    <animateTransform attributeName="transform" type="translate" values="0 0;3 -3;0 0" dur="2s" repeatCount="indefinite"/>
+  </text>
+</svg>
